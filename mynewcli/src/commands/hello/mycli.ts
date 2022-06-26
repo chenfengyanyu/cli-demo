@@ -1,7 +1,8 @@
 import {Command, Flags} from '@oclif/core'
+import { Input } from '@oclif/parser';
 import BaseCommand from '../../base'
 
-export default class MyCLI extends BaseCommand {
+export default class MyCLI extends Command {
   static description = 'Args Demo'
 
   static args = [
