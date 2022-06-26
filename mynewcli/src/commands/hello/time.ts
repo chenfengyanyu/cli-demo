@@ -5,5 +5,6 @@ export default class Time extends Command {
 
   async run(): Promise<void> {
     this.log(`hello current time is ${new Date()}`)
+    // this.error(`Errro!!!`)
   }
 }
