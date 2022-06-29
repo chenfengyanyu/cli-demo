@@ -21,7 +21,8 @@
     "@oclif/core": "^1",
     "@oclif/parser": "^3.8.7",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.0.1"
+    "@oclif/plugin-not-found": "^2.3.1",
+    "@oclif/plugin-plugins": "^2.1.0"
   },
   "devDependencies": {
     "@oclif/test": "^2",
@@ -53,7 +54,8 @@
     },
     "plugins": [
       "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
+      "@oclif/plugin-plugins",
+      "@oclif/plugin-not-found"
     ],
     "topicSeparator": " ",
     "topics": {
