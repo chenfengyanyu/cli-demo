@@ -45,7 +45,10 @@
     "dirname": "MTools",
     "commands": "./dist/commands",
     "hooks": {
-      "init": "./dist/hooks/example"
+      "init": [
+        "./src/hooks/init/example",
+        "./src/hooks/init/myhook"
+      ]
     },
     "plugins": [
       "@oclif/plugin-help",
