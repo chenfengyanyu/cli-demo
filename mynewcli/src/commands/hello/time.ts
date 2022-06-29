@@ -6,5 +6,7 @@ export default class Time extends Command {
   async run(): Promise<void> {
     this.log(`hello current time is ${new Date()}`)
     // this.error(`Errro!!!`)
+    // test custom hooks
+    await this.config.runHook('analytics', {id: 'my_custom_command'})
   }
 }

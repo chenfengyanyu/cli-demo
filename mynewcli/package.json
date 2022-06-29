@@ -48,7 +48,8 @@
       "init": [
         "./src/hooks/init/example",
         "./src/hooks/init/myhook"
-      ]
+      ],
+      "analytics": "./src/hooks/analytics/post"
     },
     "plugins": [
       "@oclif/plugin-help",
